@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  width: 100%;
+  background: #55b2e7;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+section {
+  background-image: url("./images/people.jpg");
+  background-size: cover;
+  max-width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.formContainer {
+  max-width: 250px;
+  background-color: #ffffffbb;
+  padding: 20px;
+  margin-right: 19px;
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
+h2 {
+  font-size: 16px;
+}
+.mb {
+  margin-bottom: 15px;
+}
+input,
+select {
+  width: 100%; 
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  outline: none;
+}
+button {
+  color: white;
+  background-color: #48c5ce;
+  font-weight: 700;
+  width: 100%;
+  height: 3rem;
+  padding: 5px;
+  border: 1px solid;
+  border-radius: 3px;
+}
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  background-image: url("./images/arrow.jpg");
+  background-repeat: no-repeat;
+  background-position: calc(100% - 10px) center;
+}
+.principal{
+    background-color: #202121;
+    padding: 40px;
+    text-align: center;
+}
+.picture{   
+    width: 160px;
+}
+
+.description{
+    display: inline-block;
+    
+    text-align: justify;
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+
+}
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 3rem;
+}
